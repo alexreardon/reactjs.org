@@ -1,8 +1,14 @@
-const ToDo = (props) => (
+const ToDo = props => (
   <tr>
-    <td><label>{props.id}</label></td>
-    <td><input/></td>
-    <td><label>{props.createdAt.toTimeString()}</label></td>
+    <td>
+      <label>{props.id}</label>
+    </td>
+    <td>
+      <input />
+    </td>
+    <td>
+      <label>{props.createdAt.toTimeString()}</label>
+    </td>
   </tr>
 );
 
@@ -14,9 +20,12 @@ class ToDoList extends React.Component {
     this.state = {
       todoCounter: todoCounter,
       list: [
-        { id: todoCounter, createdAt: date },
-      ]
-    }
+        {
+          id: todoCounter,
+          createdAt: date,
+        },
+      ],
+    };
   }
 
   sortByEarliest() {
@@ -24,8 +33,8 @@ class ToDoList extends React.Component {
       return a.createdAt - b.createdAt;
     });
     this.setState({
-      list: [...sortedList]
-    })
+      list: [...sortedList],
+    });
   }
 
   sortByLatest() {
@@ -33,8 +42,8 @@ class ToDoList extends React.Component {
       return b.createdAt - a.createdAt;
     });
     this.setState({
-      list: [...sortedList]
-    })
+      list: [...sortedList],
+    });
   }
 
   addToEnd() {
@@ -42,11 +51,11 @@ class ToDoList extends React.Component {
     const nextId = this.state.todoCounter + 1;
     const newList = [
       ...this.state.list,
-      { id: nextId, createdAt: date }
+      {id: nextId, createdAt: date},
     ];
     this.setState({
       list: newList,
-      todoCounter: nextId
+      todoCounter: nextId,
     });
   }
 
@@ -54,19 +63,20 @@ class ToDoList extends React.Component {
     const date = new Date();
     const nextId = this.state.todoCounter + 1;
     const newList = [
-      { id: nextId, createdAt: date },
-      ...this.state.list
+      {id: nextId, createdAt: date},
+      ...this.state.list,
     ];
     this.setState({
       list: newList,
-      todoCounter: nextId
+      todoCounter: nextId,
     });
   }
 
   render() {
-    return(
+    return (
       <div>
-        <code>key=index</code><br/>
+        <code>key=index</code>
+        <br />
         <button onClick={this.addToStart.bind(this)}>
           Add New to Start
         </button>
@@ -81,19 +91,16 @@ class ToDoList extends React.Component {
         </button>
         <table>
           <tr>
-            <th>ID</th><th></th><th>created at</th>
+            <th>ID</th>
+            <th />
+            <th>created at</th>
           </tr>
-          {
-            this.state.list.map((todo, index) => (
-              <ToDo
-                key={index}
-                {...todo}
-              />
-            ))
-          }
+          {this.state.list.map((todo, index) => (
+            <ToDo key={index} {...todo} />
+          ))}
         </table>
       </div>
-    )
+    );
   }
 }
 

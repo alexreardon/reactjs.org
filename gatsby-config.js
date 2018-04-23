@@ -2,7 +2,7 @@
  * Copyright (c) 2013-present, Facebook, Inc.
  *
  * @emails react-core
-*/
+ */
 
 'use strict';
 
@@ -20,6 +20,7 @@ module.exports = {
     'gatsby-source-react-error-codes',
     'gatsby-transformer-authors-yaml',
     'gatsby-transformer-home-example-code',
+    'gatsby-transformer-versions-yaml',
     'gatsby-plugin-netlify',
     'gatsby-plugin-glamor',
     'gatsby-plugin-react-next',
@@ -67,6 +68,13 @@ module.exports = {
               ],
               redirectTemplate: `${__dirname}/src/templates/codepen-example.js`,
               target: '_blank',
+            },
+          },
+          {
+            resolve: 'gatsby-remark-embed-snippet',
+            options: {
+              classPrefix: 'gatsby-code-',
+              directory: `${__dirname}/examples/`,
             },
           },
           'gatsby-remark-use-jsx',

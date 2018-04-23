@@ -23,7 +23,12 @@ Do you have a local React.js meetup? Add it here! (Please keep the list alphabet
 * [Rio de Janeiro](https://www.meetup.com/pt-BR/React-Rio-de-Janeiro/)
 * [São Paulo](http://www.meetup.com/pt-BR/ReactJS-SP/)
 
+## Bolivia
+* [Bolivia](https://www.meetup.com/ReactBolivia/)
+
 ## Canada
+* [Montreal, QC - ReactJS](https://www.meetup.com/fr-FR/ReactMontreal/)
+* [Montreal, QC - React Native](https://www.meetup.com/fr-FR/React-Native-MTL/)
 * [Vancouver, BC](http://www.meetup.com/ReactJS-Vancouver-Meetup/)
 
 ## China
@@ -45,13 +50,19 @@ Do you have a local React.js meetup? Add it here! (Please keep the list alphabet
 ## Germany
 * [Berlin](http://www.meetup.com/React-Berlin/)
 * [Hamburg](http://www.meetup.com/Hamburg-React-js-Meetup/)
+* [Karlsruhe](http://www.meetup.com/react_ka/)
 * [Munich](http://www.meetup.com/ReactJS-Meetup-Munich/)
 
 ## Greece
 * [Thessaloniki](https://www.meetup.com/Thessaloniki-ReactJS-Meetup/)
 
+## Hungary
+* [Budapest](https://www.meetup.com/React-Budapest/)
+
 ## India
 * [Bangalore](https://www.meetup.com/ReactJS-Bangalore/)
+* [Chennai](https://www.meetup.com/React-Chennai/)
+* [Gurgaon](https://www.meetup.com/React-Gurgaon/)
 
 ## Ireland
 * [Dublin](http://www.meetup.com/ReactJS-Dublin/)
@@ -78,6 +89,9 @@ Do you have a local React.js meetup? Add it here! (Please keep the list alphabet
 ## Poland
 * [Warsaw](http://www.meetup.com/React-js-Warsaw/)
 
+## Scotland (UK)
+* [Edinburgh](https://www.meetup.com/React-Scotland/)
+
 ## Spain
 * [Barcelona](http://www.meetup.com/ReactJS-Barcelona/)
 
@@ -93,6 +107,7 @@ Do you have a local React.js meetup? Add it here! (Please keep the list alphabet
 * [Boston, MA - ReactJS](http://www.meetup.com/ReactJS-Boston/)
 * [Boston, MA - React Native](http://www.meetup.com/Boston-React-Native-Meetup/)
 * [Chicago, IL - ReactJS](http://www.meetup.com/React-Chicago/)
+* [Columbus, OH - ReactJS](http://www.meetup.com/ReactJS-Columbus-meetup/)
 * [Dallas, TX - ReactJS](http://www.meetup.com/ReactDallas/)
 * [Irvine, CA - ReactJS](http://www.meetup.com/ReactJS-OC/)
 * [Las Vegas, NV - ReactJS](http://www.meetup.com/ReactVegas/)

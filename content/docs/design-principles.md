@@ -33,7 +33,7 @@ For example, if React didn't provide support for local state or lifecycle hooks,
 
 This is why sometimes we add features to React itself. If we notice that many components implement a certain feature in incompatible or inefficient ways, we might prefer to bake it into React. We don't do it lightly. When we do it, it's because we are confident that raising the abstraction level benefits the whole ecosystem. State, lifecycle hooks, cross-browser event normalization are good examples of this.
 
-We always discuss such improvement proposals with the community. You can find some of those discussions by the ["big picture"](https://github.com/facebook/react/issues?q=is:open+is:issue+label:"big+picture") label on the React issue tracker.
+We always discuss such improvement proposals with the community. You can find some of those discussions by the ["big picture"](https://github.com/facebook/react/issues?q=is:open+is:issue+label:"Type:+Big+Picture") label on the React issue tracker.
 
 ### Escape Hatches
 
@@ -43,7 +43,7 @@ If we want to deprecate a pattern that we don't like, it is our responsibility t
 
 ### Stability
 
-We value API stability. At Facebook, we have more than 20 thousand components using React. Many other companies, including [Twitter](https://twitter.com/) and [Airbnb](https://www.airbnb.com/), are also heavy users of React. This is why we are usually reluctant to change public APIs or behavior.
+We value API stability. At Facebook, we have more than 50 thousand components using React. Many other companies, including [Twitter](https://twitter.com/) and [Airbnb](https://www.airbnb.com/), are also heavy users of React. This is why we are usually reluctant to change public APIs or behavior.
 
 However we think stability in the sense of "nothing changes" is overrated. It quickly turns into stagnation. Instead, we prefer the stability in the sense of "It is heavily used in production, and when something changes, there is a clear (and preferably automated) migration path."
 
